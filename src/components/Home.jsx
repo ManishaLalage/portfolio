@@ -15,8 +15,7 @@ const Home = () => {
             I'm a College Student
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am in last year of Msc(Computer science) . I  am also doing " Full-Stack Web Develpment " Traing and Internship . I am Working on Zomato Clone Project .It is MERN Stack project
-            Currently, I am working on Zomato Clone Project.
+            I am in last year of Msc(Computer science) . I  am also doing " Full-Stack Web Develpment " Traing and Internship . I am Working on Zomato Clone Project .Currently, I am working on Zomato Clone Project.
           </p>
 
           <div>

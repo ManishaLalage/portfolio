@@ -15,7 +15,7 @@ const About = () => {
 
         <p className="text-xl mt-20">
         I am Working on Zomato Clone Project .It is MERN Stack project
-            Currently, I love to work on web application using technologies like
+             I love to work on web application using technologies like
             React, Tailwind,  JS and Mongodb.
         </p>
 
