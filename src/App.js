@@ -1,23 +1,23 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";
 import Home from "./components/Home";
-import NavBar from "./components/NavBar";
-import Portfolio from "./components/Portfolio";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div>
-      <NavBar />
+    <>
+      <Navbar />
       <Home />
-      <About />
-      <Portfolio />
-      <Experience />
+      {/* <About /> */}
+      <Skills />
+      <Projects />
       <Contact />
 
       <SocialLinks />
-    </div>
+    </>
   );
 }
 
