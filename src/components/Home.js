@@ -8,13 +8,15 @@ const Home=()=>{
 
        <>
        <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white">
-         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4
+         <div className="max-w-screen-lg  mx-auto flex flex-col items-center justify-center h-full px-4
          md:flex-row ">
-            <div className="flex flex-col justify-center h-full ">
-                <h2 className="text-4xl  sm:text-7xl font-bold text-white">
+            <div className="flex flex-col justify-center h-full mt-16 ">
+                <h2 className="text-4xl  sm:text-6xl font-bold text-white">
                     I'm a FrontEnd Developer
                 </h2>
                 <p className="text-gray-500 py-4 max-w-md">I am Fresher.
+                    Currently,I love to work on web application using technologies like Html ,
+                    Css ,Js , React , Tailwind.
                     Currently,I love to work on web application using technologies like Html ,
                     Css ,Js , React , Tailwind.
                 </p>
@@ -29,8 +31,8 @@ const Home=()=>{
                 </div>
             </div>
 
-            <div>
-                <img src={HeroImage} alt="my Profile" className=" rounded-2xl max-auto w-2/3 md:w-full"/>
+            <div className="flex justify-center  ">
+                <img src={HeroImage} alt="my Profile" className=" rounded-2xl mt-20  w-1/3 md:w-full"/>
             </div>
          </div>
          </div>
