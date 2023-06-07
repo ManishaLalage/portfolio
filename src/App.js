@@ -1,17 +1,22 @@
-
-// import './App.css';
-
-import Navbar from "./components/Navbar";
+// import About from "./components/About";
 import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Project from "./components/Project";
+import Skill from "./components/Skill";
 import SocialLink from "./components/SocialLink";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App">
-     <Navbar/>
-     <Home/>
-     <SocialLink/>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+      {/* <About /> */}
+      <Skill />
+      <Project />
+      <Contact />
+      <SocialLink />
+    </>
   );
 }
 
