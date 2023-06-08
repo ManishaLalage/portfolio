@@ -6,36 +6,37 @@ import bookMyShow from "../assets/projects/bookMyShow.png";
 
 const Projects = () => {
   const projects = [
+
     {
       id: 1,
-      src: ZomatoClone,
-      demo : "#",
-      code : "https://github.com/ManishaLalage/zomato-clone-project",
-
-    },
-    {
-      id: 2,
-      src: nodeServer,
-      demo : "#",
-      code : "https://github.com/ManishaLalage/book-record-management",
-
-    },
-    {
-      id: 3,
       src: myTask,
       demo : "https://63778a5f8de8d80075ba8d3e--classy-tiramisu-88e2c2.netlify.app/",
       code : "https://github.com/ManishaLalage/task-management",
 
     },
     {
-      id: 4,
+      id: 2,
       src: bookMyShow,
       demo: "https://book-my-show-virid.vercel.app/",
       code: "https://github.com/ManishaLalage/book_my_show",
        },
     
-  ];
+    {
+      id: 3,
+      src: ZomatoClone,
+      demo : "#",
+      code : "https://github.com/ManishaLalage/zomato-clone-project",
 
+    },
+    {
+      id: 4,
+      src: nodeServer,
+      demo : "#",
+      code : "https://github.com/ManishaLalage/book-record-management",
+
+    },
+   
+  ]
   return (
     <>
       <div
@@ -58,7 +59,6 @@ const Projects = () => {
                   alt=""
                   className="rounded-md duration-200 hover:scale-105"
                 />
-
                 <div className="flex items-center justify-center">
                   <a href={demo} target = "_blank" rel='noreferrer' className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Demo
