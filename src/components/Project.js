@@ -1,40 +1,41 @@
 import React from "react";
-import ZomatoClone from "../assets/projects/Zomato Clone.png";
-import nodeServer from "../assets/projects/bookRecordServer.png";
+// import ZomatoClone from "../assets/projects/Zomato Clone.png";
+import youTube from "../assets/projects/youTube.png";
 import myTask from "../assets/projects/myTask.png";
 import bookMyShow from "../assets/projects/bookMyShow.png";
-
+import portfolio from "../assets/projects/portfolio.png"
 const Projects = () => {
   const projects = [
-
     {
       id: 1,
+      src: portfolio,
+      demo : "https://portfolio-pi-virid-87.vercel.app/",
+      code : "https://github.com/ManishaLalage/portfolio",
+
+    },
+
+    {
+      id: 2,
       src: myTask,
       demo : "https://63778a5f8de8d80075ba8d3e--classy-tiramisu-88e2c2.netlify.app/",
       code : "https://github.com/ManishaLalage/task-management",
 
     },
     {
-      id: 2,
+      id: 3,
       src: bookMyShow,
       demo: "https://book-my-show-virid.vercel.app/",
       code: "https://github.com/ManishaLalage/book_my_show",
        },
     
     {
-      id: 3,
-      src: ZomatoClone,
-      demo : "#",
-      code : "https://github.com/ManishaLalage/zomato-clone-project",
-
-    },
-    {
       id: 4,
-      src: nodeServer,
-      demo : "#",
-      code : "https://github.com/ManishaLalage/book-record-management",
+      src: youTube,
+      demo : "https://you-tube-web-three.vercel.app/",
+      code : "https://github.com/ManishaLalage/you-tube-web",
 
     },
+ 
    
   ]
   return (
